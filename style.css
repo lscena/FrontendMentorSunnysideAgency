@@ -1,0 +1,411 @@
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(167deg 44% 35%);
+    font-family: 'Barlow', sans-serif;    
+    margin-bottom: 2px;
+}
+.attribution a {
+    color: hsl(167deg 44% 15%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Fraunces', serif;
+}
+nav{
+    background-color: #3dbfff;
+    position: absolute;
+    top: 0;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    background: url(./images/logo.svg) center center no-repeat;
+    height: 50px;
+    width: 150px;
+    /* margin: auto; */
+    flex: 0 0 150px;
+    margin-left: 5%;
+}
+.links{
+    flex: 1 0 0;
+    text-align: right;   
+    padding-right: 5%; 
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    padding: 0.8rem 2rem;
+    transition: all .1s;
+}
+.links a:hover{
+    color: hsl(212, 27%, 19%);
+}
+.links a#contact{
+    color:hsl(212, 27%, 19%);
+    background-color:white;
+    border-radius: 23px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    transition: all 0.1s;
+}
+a#contact:hover{
+    color: white;
+    background-color:hsl(200deg 100% 75%);
+}
+
+.hamMenuLinks a{
+    text-decoration: none;
+    color: hsl(212, 27%, 55%);
+    font-family: 'Barlow', sans-serif;
+    padding: 1rem 2rem;
+    transition: all .1s;
+    font-size:18px ;
+}
+.hamMenuLinks a#contact{
+    background-color: #fed701;
+    color: hsl(212, 27%, 19%);
+    border-radius: 27px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    margin: 1rem 0;
+    transition: all 0.1s;
+}
+.hamMenuLinks a#contact:hover{
+    color: hsl(212, 27%, 55%);
+    background-color: hsl(51deg 99% 70%);
+}
+.hamMenuLinks a:hover{
+    color: hsl(212, 27%, 19%);
+}
+
+.first{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/desktop/image-header.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first h1{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;    
+    margin-bottom: 8%;
+}
+
+.first .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* transform: translateY(-1rem); */
+}
+
+.arrow{
+    background:url(./images/icon-arrow-down.svg) center center no-repeat;
+    width: 20px;
+    height: 150px;
+    margin-bottom: 16%;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.row1{
+    /* display: flex;
+    width: 100%; */
+    /* height: 50vw; */
+    /* flex-direction: row-reverse; */
+}
+.row .itemText{
+    flex: 0 0 50%;
+    background-color: #fffbf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row .item2{
+    flex: 0 0 50%;
+    /* background: url(./images/desktop/image-transform.jpg) center center no-repeat; */
+    /* background-size: auto; */
+}
+.row img{
+    width: 100%;
+    height: 100%;
+}
+.row h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    max-width: 440px;
+    color: hsl(212, 27%, 19%);
+}
+.row p{
+    max-width: 440px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color:hsl(213, 9%, 39%);
+    margin: 0 0 40px 0;
+}
+.row .cta{
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    max-width: 440px;
+    color: hsl(212, 27%, 19%);
+}
+.row1 .ctaButton{
+    box-shadow: 0px 4px 0px hsl(49deg 100% 80%);
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.row2 .ctaButton{
+    box-shadow: 0px 4px 0px hsl(6deg 100% 85%);;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.row1 .ctaButton:hover{
+    box-shadow: 0px 4px 0px hsl(49deg 100% 50%);
+}
+.row2 .ctaButton:hover{
+    box-shadow: 0px 4px 0px hsl(6deg 100% 70%);;
+}
+.ctaButton a{
+    text-decoration: none;
+}
+.ctaButton a:visited{
+    color: hsl(212, 27%, 19%);
+}
+
+/* .row2 .item1{
+    flex: 0 0 50%;
+}
+.row2 .item2{
+    flex: 0 0 50%;
+} */
+
+.itemImgText{
+    position: relative;
+}
+.textOverImg{
+    position: absolute;
+    top:60%;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.item1 .textOverImg h3{
+    color: hsl(170deg 46% 20%);
+    font-size: 28px;
+}
+.item1 .textOverImg p{
+    width: 100%;
+    margin: 0 auto;
+    color: hsl(170deg 46% 30%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    max-width: 350px;
+}
+.item2 .textOverImg h3{
+    color: hsl(200deg 100% 20%);
+    font-size: 28px;
+}
+.item2 .textOverImg p{
+    width: 100%;
+    margin: 0 auto;
+    color: hsl(200deg 100% 30%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    max-width: 350px;
+}
+
+.rowTestimonials{
+    background-color: #fffbf8;
+    padding-top: 8rem;
+}
+.rowTestimonials h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: hsl(213, 9%, 39%);
+    /* margin-top: 8rem; */
+    letter-spacing: 3px;
+    margin-bottom: 4rem;
+}
+.testimonialsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial{
+    flex: 1 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tes1 img{
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 50px;
+}
+.tes2{
+    max-width: 325px;
+    color: hsl(213, 9%, 39%);
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    line-height: 25px;
+}
+.tes3 .name{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%); 
+    text-align: center;
+    font-weight: 900;
+    margin: 70px 0 8px;
+}
+.tes3 .role{
+    color: hsl(213, 9%, 39%);
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+.rowMiniImages{
+    width: 100%;
+    display: flex;
+}
+.rowMiniImages img{
+    flex: 1 0 0;
+    width: 25%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#90d4c5 ;
+}
+.r1{
+    margin-top: 4rem;
+}
+footer .r1 path{
+    fill: hsl(167deg 44% 35%);
+}
+.linksContainer{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 4rem;
+}
+.linksContainer a{
+    text-decoration: none;
+    color: hsl(167deg 44% 40%);
+    font-family: 'Barlow', sans-serif;
+    transition: all 0.1s;
+}
+.linksContainer a:hover{
+    color: white;
+}
+.r3 a{
+    text-decoration: none;    
+}
+.r3{
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.r3 path{
+    transition: all .1s;
+}
+.r3 svg:hover path{
+    fill:white;
+}
+.hamburguer{
+    display: none;
+    flex: 1 0 0;
+    text-align: right;
+    padding-right: 5%;
+    z-index: 20;
+}
+.hamContainer{
+    float: right;
+    cursor: pointer;    
+}
+.hamContainer:hover i{
+    /* background-color: hsl(212, 27%, 19%) !important; */
+    background-color: hsl(200deg 100% 75%) !important;
+}
+
+#hamburguerMenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: none;
+}
+#hamburguerMenu.active{
+    display: block;
+}
+
+
+@media screen and (min-width: 901px){
+    #hamburguerMenu{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1050px){
+    .textOverImg{
+        top: 50% !important;
+    }
+}
+/* On screens that are 900px or less, set the background color to blue */
+@media screen and  (max-width: 900px) {
+    .row1 {
+        flex-direction: column-reverse;        
+    }    
+    .row2, .row3, .testimonialsContent{
+        flex-direction: column;
+    }
+    .row .cta{
+        margin-bottom: 3rem;
+    }
+    .row3 img, .row2 .item1.itemImg img,.row1 .item2.itemImg img{
+        margin: 0 0 -4px;
+    }
+    .rowMiniImages img {        
+        width: 50%;
+        display:inline-block;        
+    }
+    .rowMiniImages{
+        flex-wrap: wrap;
+    }
+    .links{
+        display: none;
+    }
+    .hamburguer{
+        display: block;
+    }
+}
