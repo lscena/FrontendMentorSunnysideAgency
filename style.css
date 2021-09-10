@@ -70,7 +70,7 @@ a#contact:hover{
     transition: all .1s;
     font-size:18px ;
 }
-.hamMenuLinks a#contact{
+.hamMenuLinks a#contact2{
     background-color: #fed701;
     color: hsl(212, 27%, 19%);
     border-radius: 27px;
@@ -80,7 +80,7 @@ a#contact:hover{
     margin: 1rem 0;
     transition: all 0.1s;
 }
-.hamMenuLinks a#contact:hover{
+.hamMenuLinks a#contact2:hover{
     color: hsl(212, 27%, 55%);
     background-color: hsl(51deg 99% 70%);
 }
