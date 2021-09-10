@@ -22,11 +22,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![finished challenge screenshot]](https://raw.githubusercontent.com/lscena/FrontendMentorSunnysideAgency/main/screenshot.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://lscena.github.io/FrontendMentorSunnysideAgency/)
 
 ## My process
 
