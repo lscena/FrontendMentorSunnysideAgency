@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![finished challenge screenshot]](https://github.com/lscena/FrontendMentorSunnysideAgency/blob/main/screenshot.png?raw=true)
+![finished challenge screenshot](https://github.com/lscena/FrontendMentorSunnysideAgency/blob/main/screenshot.png?raw=true)
 
 ### Links
 
