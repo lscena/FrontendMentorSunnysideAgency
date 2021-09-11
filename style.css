@@ -409,3 +409,20 @@ footer .r1 path{
         display: block;
     }
 }
+@media screen and  (max-width: 400px) {
+    .textOverImg {
+        top: 42% !important;
+    }
+    .row2 .item2{
+        padding: 0 1.5rem;
+    }
+    .row1 .item1{
+        padding: 0 1.5rem;
+    }
+    .textOverImg h3 {
+        margin-bottom: 5px;
+    }
+    .tes2{
+        padding: 0 1.5rem;
+    }
+}
